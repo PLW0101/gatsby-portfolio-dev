@@ -19,18 +19,18 @@ module.exports = {
 				siteUrl: config.url,
 			},
 		},
-		{
-			resolve: "gatsby-source-graphql",
-			options: {
-				typeName: "GitHub",
-				fieldName: "github",
-				url: "https://api.github.com/graphql",
-				headers: {
-					Authorization: `bearer ${process.env.PORTFOLIO_GITHUB_TOKEN}`,
-				},
-				fetchOptions: {},
-			},
-		},
+		// {
+		// 	resolve: "gatsby-source-graphql",
+		// 	options: {
+		// 		typeName: "GitHub",
+		// 		fieldName: "github",
+		// 		url: "https://api.github.com/graphql",
+		// 		headers: {
+		// 			Authorization: `bearer ${process.env.PORTFOLIO_GITHUB_TOKEN}`,
+		// 		},
+		// 		fetchOptions: {},
+		// 	},
+		// },
 		{
 			resolve: "gatsby-plugin-nprogress",
 			options: {
@@ -38,13 +38,13 @@ module.exports = {
 				showSpinner: false,
 			},
 		},
-		{
-			resolve: "gatsby-plugin-google-analytics",
-			options: {
-				trackingId: config.googleAnalyticsID,
-				head: true,
-			},
-		},
+		// {
+		// 	resolve: "gatsby-plugin-google-analytics",
+		// 	options: {
+		// 		trackingId: config.googleAnalyticsID,
+		// 		head: true,
+		// 	},
+		// },
 		{
 			resolve: "gatsby-plugin-manifest",
 			options: {
