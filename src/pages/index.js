@@ -1,5 +1,8 @@
 import React from "react";
-import { Layout, Seo } from "components/common";
+import {
+	Layout
+	// , Seo 
+} from "components/common";
 import {
 	Intro, Skills
 	// , Contact, Projects
@@ -7,7 +10,7 @@ import {
 
 const Home = () => (
 	<Layout>
-		<Seo />
+		{/* <Seo /> */}
 		<Intro />
 		{/* <Projects /> */}
 		<Skills />

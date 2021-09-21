@@ -1,5 +1,5 @@
 import React from "react";
-import Helmet from "react-helmet";
+// import Helmet from "react-helmet";
 import Thumbnail from "assets/thumbnail/thumbnail.png";
 import {
 	url,
@@ -54,7 +54,7 @@ export const Seo = ({
   	}`;
 
 	return (
-		<Helmet>
+		<>
 			<meta name="description" content={description} />
 			<meta name="image" content={Thumbnail} />
 
@@ -75,6 +75,6 @@ export const Seo = ({
 			<link rel="publisher" href={socialLinks.google} />
 			<title>{title}</title>
 			<html lang="en" dir="ltr" />
-		</Helmet>
+		</>
 	);
 };
