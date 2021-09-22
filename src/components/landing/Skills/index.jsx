@@ -19,8 +19,8 @@ export const Skills = () => {
           <p>
             I came from Taiwan. 
           </p>
-          <Button as={AnchorLink} href="#contact">
-            Hire me
+          <Button href="mailto:peilingwu0101@gmail.com">
+            Message me
           </Button>
         </Details>
       </SkillsWrapper>
